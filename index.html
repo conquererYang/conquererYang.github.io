@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <meta name="description" content="{{ site.description | default: site.github.project_tagline }}">
+
+  <title>{{ site.title }}</title>
+
+  <link rel="stylesheet" href="/assets/css/style.css?v={{ site.github.build_revision | default: site.time | date: '%s' }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <header class="site-header" role="banner">
+    <div class="wrapper">
+      <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+      <nav class="site-nav">
+        {% for nav_item in site.nav %}
+          <a href="{{ nav_item.url | relative_url }}">{{ nav_item.name }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main" role="main">
+    <div class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">{{ site.first_name }} {{ site.last_name }}</h1>
+        <p class="hero-subtitle">{{ site.description }}</p>
+        <div class="hero-avatar">
+          <img src="{{ site.avatar }}" alt="Avatar">
+        </div>
+        <div class="hero-social">
+          {% for social in site.socials %}
+            <a href="{{ social.url }}" target="_blank" rel="noopener">
+              <i class="fab fa-{{ social.icon }}"></i>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    {{ site.footer_text }}
+  </footer>
+</body>
+</html>
