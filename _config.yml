@@ -17,7 +17,7 @@ footer_text: >  # 保持默认即可
 keywords: multi-robot collaboration,  anomaly processing
 lang: en
 icon: 🤖 
-
+avatar: /assets/img/author11.jpg
 
 repo_trophies:
   enabled: false  # 将true改为false
