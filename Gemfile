@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+# 修复：指定 Jekyll 4.3.x 版本（al-folio 要求的版本）
+gem 'jekyll', '~> 4.3'
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
