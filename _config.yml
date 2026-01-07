@@ -1,27 +1,78 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-url: https://conquererYang.github.io  # ← 新增这行
-baseurl: ""  # ← 新增这行
+url: https://conquererYang.github.io
+baseurl: ""
 
-title: "Yang Yang"  # 替换为你的名字，例如 "Your Name"
-first_name: ""  # 例如 "John"
-middle_name: ""  # 通常不需要，可以留空
-last_name: ""  # 例如 "Doe"
-contact_note: >  # 可以删除或修改
+title: "Yang Yang"
+first_name: "Yang"
+middle_name: ""
+last_name: "Yang"
+contact_note: >
   You can even add a little note about which of these is the best way to reach you.
-description: >  # 替换为你的专业描述
+description: >
   Ph.D. student at Harbin Institute of Technology (Shenzhen) & Pengcheng Laboratory, Master's graduate from School of Software and Microelectronics, Peking University. Research interests: multi-robot collaboration, team formation, and anomaly processing.
-footer_text: >  # 保持默认即可
+footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: multi-robot collaboration,  anomaly processing
+keywords: multi-robot collaboration, anomaly detection & processing
 lang: en
-icon: 🤖 
+icon: 🤖
 avatar: /assets/img/author11.jpg
 
+# -----------------------------------------------------------------------------
+# Author settings
+# -----------------------------------------------------------------------------
+author:
+  name: "Yang Yang"
+  bio: "Ph.D. student at Harbin Institute of Technology (Shenzhen) & Pengcheng Laboratory, Master's graduate from School of Software and Microelectronics, Peking University. Research interests: multi-robot collaboration, team formation, and anomaly processing."
+  location: "Shenzhen, China"
+  email: "yangyangpku@pku.org.cn"  # 请替换为您的邮箱
+
+# -----------------------------------------------------------------------------
+# Social links
+# -----------------------------------------------------------------------------
+social:
+  - name: GitHub
+    url: https://github.com/conquererYang
+    icon: fab fa-github
+  - name: Email
+    url: yangyangpku@pku.org.cn
+    icon: fas fa-envelope
+
+# -----------------------------------------------------------------------------
+# Navigation menu
+# -----------------------------------------------------------------------------
+menu:
+  - name: Home
+    url: /
+  - name: About
+    url: /about
+  - name: Publications
+    url: /publications
+  - name: Projects
+    url: /projects
+  - name: Contact
+    url: /contact
+
+# -----------------------------------------------------------------------------
+# Theme features
+# -----------------------------------------------------------------------------
 repo_trophies:
-  enabled: false  # 将true改为false
+  enabled: false
   theme_light: flat
   theme_dark: gitdimmed
+
+# -----------------------------------------------------------------------------
+# SEO & Analytics
+# -----------------------------------------------------------------------------
+google_analytics: 
+google_verification: ""
+
+# -----------------------------------------------------------------------------
+# Content settings
+# -----------------------------------------------------------------------------
+paginate: 5
+paginate_path: /page:num/
+timezone: Asia/Shanghai
