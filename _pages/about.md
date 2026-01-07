@@ -18,6 +18,7 @@ Hi, I'm Yang Yang, a Ph.D. student at Harbin Institute of Technology (Shenzhen) 
 
 ## Research Interests
 
+- Robotics
 - Multi-Robot Collaboration
 - Team Formation
-- Anomaly Processing
+- Anomaly Detection & Anomaly Processing
