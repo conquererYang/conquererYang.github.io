@@ -1,15 +1,10 @@
 # -----------------------------------------------------------------------------
-# Site settings
+# Site settings (REQUIRED FOR al-folio THEME)
 # -----------------------------------------------------------------------------
 url: https://conquererYang.github.io
 baseurl: ""
 
 title: "Yang Yang"
-first_name: "Yang"
-middle_name: ""
-last_name: "Yang"
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
 description: >
   Ph.D. student at Harbin Institute of Technology (Shenzhen) & Pengcheng Laboratory, Master's graduate from School of Software and Microelectronics, Peking University. Research interests: multi-robot collaboration, team formation, and anomaly processing.
 footer_text: >
@@ -22,16 +17,16 @@ icon: 🤖
 avatar: /assets/img/author11.jpg
 
 # -----------------------------------------------------------------------------
-# Author settings
+# AUTHOR SETTINGS (AL-FOLIO'S REQUIRED FORMAT)
 # -----------------------------------------------------------------------------
 author:
-  name: "Yang Yang"
+  name: "Yang Yang"  # ✅ 关键修复：使用 author.name 替代 first_name/last_name
   bio: "Ph.D. student at Harbin Institute of Technology (Shenzhen) & Pengcheng Laboratory, Master's graduate from School of Software and Microelectronics, Peking University. Research interests: multi-robot collaboration, team formation, and anomaly processing."
   location: "Shenzhen, China"
-  email: "yangyangpku@pku.org.cn"  # 请替换为您的邮箱
+  email: "yangyangpku@pku.org.cn"
 
 # -----------------------------------------------------------------------------
-# Social links
+# SOCIAL LINKS (AL-FOLIO STANDARD FORMAT)
 # -----------------------------------------------------------------------------
 social:
   - name: GitHub
@@ -42,7 +37,7 @@ social:
     icon: fas fa-envelope
 
 # -----------------------------------------------------------------------------
-# Navigation menu
+# NAVIGATION MENU (AL-FOLIO DEFAULT)
 # -----------------------------------------------------------------------------
 menu:
   - name: Home
@@ -57,7 +52,7 @@ menu:
     url: /contact
 
 # -----------------------------------------------------------------------------
-# Theme features
+# THEME FEATURES (NO CHANGES NEEDED)
 # -----------------------------------------------------------------------------
 repo_trophies:
   enabled: false
@@ -65,13 +60,13 @@ repo_trophies:
   theme_dark: gitdimmed
 
 # -----------------------------------------------------------------------------
-# SEO & Analytics
+# SEO (REPLACE WITH YOUR ACTUAL ID)
 # -----------------------------------------------------------------------------
 google_analytics: 
 google_verification: ""
 
 # -----------------------------------------------------------------------------
-# Content settings
+# CONTENT SETTINGS
 # -----------------------------------------------------------------------------
 paginate: 5
 paginate_path: /page:num/
